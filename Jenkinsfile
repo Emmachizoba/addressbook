@@ -1,4 +1,5 @@
-node { 
+pipeline{
+   agent any
   stage('mvn compile') {
   steps {
   sh 'mvn compile'
